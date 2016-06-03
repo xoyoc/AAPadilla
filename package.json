@@ -1,0 +1,29 @@
+{
+  "name": "aapadilla",
+  "version": "0.1.0",
+  "description": "pagina web de agencia aduanal padilla",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoyoc/AAPadilla.git"
+  },
+  "author": "Tec. Antonio Xoyoc Becerra Farias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xoyoc/AAPadilla/issues"
+  },
+  "homepage": "https://github.com/xoyoc/AAPadilla#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-watch": "^4.3.6"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6"
+  }
+}
