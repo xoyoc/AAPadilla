@@ -6205,3 +6205,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 img {
   height: 64px; }
+
+nav ul {
+  display: inline-block;
+  float: ringt !important; }
