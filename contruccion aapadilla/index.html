@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+	<meta charset="UTF-8">
+	<title>Agencia Aduanal Padilla</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="tools/sifr.css">
+	<link rel="stylesheet" type="text/css" href="tools/style.css">
+	<link rel="stylesheet" type="text/css" href="tools/960.css">
+	<!-- favicon  de agencia aduanal padilla-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<style type="text/css" media="screen">
+		@keyframes aparecion{
+			0%{opacity: 0;}
+			100%{opacity: 1;}
+		}
+		@font-face {
+	    font-family: Gotham-bold;
+	    	src: url(font/Gotham-bold.ttf);
+		}
+		@font-face {
+	    font-family: Gotham-book;
+	    	src: url(font/Gotham-light.ttf);
+		}
+		body{
+			animation: 1s aparecion linear;
+			background: url("images/fondo.jpg") no-repeat fixed center;
+			transition: all 2s ease-in;
+		}
+		#content{
+			margin: 5em auto !important;
+		}
+		.main_box h2{
+			color:#FFB700;
+			background: rgba(255,255,255,.3);
+			text-align: center;
+		}
+		.logo_box h1, .main_box h2 span{
+			text-shadow: black 2px 2px 3px;
+		}
+		.logo_box h1{
+			font-size: 4em;
+			font-family: Gotham-bold;
+		}
+		.main_box h2 span{
+			font-size: .8rem;
+			font-family: Gotham-book;
+		}
+		@media screen and (max-width:760px) {
+			#content{
+				display: inline-block;
+				text-align: center;
+				width: 100vw !important;
+			}
+			.logo_box{
+				right: auto;
+				width: auto;
+				float: none;
+				border-right: none;
+			}
+			.logo_box h1{
+				width: 100%;
+				text-align: center;
+				padding: 0;
+			}
+			.main_box{
+				float: none;
+				margin:auto;
+				background: rgba(0,0,0,.5);
+				height: 100%;
+				padding-bottom: 4em; 
+			}
+			.main_box h2 {
+				font-size: 2rem;
+			}
+			.main_box h2 span, .info li p  {
+				font-size: 1.3rem !important;
+			}
+		}
+		@media screen and (max-width:470px){
+			#content{
+				width: 100vw;
+				height: 100vh;
+			}
+			.main_box{
+				width: 100vw;
+				padding: 0;
+				height: 70vh;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div class="logo_box"><h1>Agencia<br/>Aduanal<br/>Padilla</h1></div>          
+		<div class="main_box">
+			<h2>Nuestro sitio web esta en contruccíon.<br/><span>Mientras tanto conectar con nosotros con la siguiente información</span></h2>
+			<ul class="info">
+				<li>
+					<h3>T</h3>
+					<p>(33) 2282-8212<br/>(33) 2282-8213</p>
+				</li>
+				<li>
+					<h3>E</h3>
+					<p style="margin-top: 9px;"><a href="mailto:informes@aapadilla.com?subject=WebAAPadilla">informes@aapadilla.com</a><br/></p>
+				</li>
+				<li>
+					<h3>S</h3>
+					<p class="social" style="margin-top: 4px;">
+						<a href="#" class="tw"></a>
+						<a href="#" class="fb"></a>				
+						<a href="#" class="li"></a>
+					</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
