@@ -27,34 +27,37 @@ nav ul {
   height: 100%; }
 
 .esloganPrincipal {
+  z-index: 99;
   position: absolute;
   float: left;
-  left: 250px;
-  top: 200px;
-  width: 22%; }
+  left: 280px;
+  top: 180px;
+  width: 20%; }
 
 .esloganPrincipal p {
   font-size: 1.8em;
   line-height: 35px;
   margin-bottom: .3em; }
 
-.menuPrincipal {
+.cajaPrincipal {
   width: 100vw;
   position: absolute;
   float: left;
-  left: 50px;
-  bottom: 50px; }
+  left: 70px;
+  bottom: 100px; }
 
-.menuPrincipal img {
+.logotipo {
   width: 180px; }
 
-.menuPrincipal nav ul {
-  display: inline-flex;
-  width: 80%; }
+.menu_principal {
+  width: 60%;
+  margin-bottom: 0; }
 
-ul a {
-  width: 100%;
-  display: inline; }
+.nav li a {
+  color: white; }
+
+.nav li a:hover {
+  color: black; }
 
 .botonNaranja {
   font-size: 1em;
@@ -63,3 +66,35 @@ ul a {
   text-transform: uppercase;
   border: none;
   padding: .5em 1em; }
+
+.centrado-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.carousel-indicators {
+  left: 90%;
+  top: 10%; }
+
+.imgenes_home {
+  width: 100%; }
+
+.imgenes_home2 {
+  width: 100%;
+  heigth: 100%; }
+
+.cuadroNaranja {
+  background: #FFB700;
+  font-size: 1.5em;
+  height: 14.9em; }
+
+.cuadroAzul {
+  background: #020C61; }
+
+.cuadroNaranja p {
+  aling-content: center;
+  margin: 20% auto;
+  padding: 2em 1em; }
+
+.sinpadding {
+  padding: 0; }
