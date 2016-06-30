@@ -325,3 +325,33 @@ h5 {
 
 .contenidoServicios div:nth-child(2), .contenidoServicios div:last-child {
   margin-top: 10em; }
+
+.contenidoNosotros {
+  padding: 2em 1em; }
+
+.contenidoNosotros div:first-child h1 {
+  margin-top: 0;
+  text-transform: uppercase; }
+
+.contenidoNosotros div:first-child h2 {
+  margin-bottom: 0;
+  text-transform: uppercase; }
+
+.contenidoNosotros div:nth-child(2) {
+  text-align: center;
+  margin-top: 6em;
+  padding: 3.5em; }
+
+.cuadroAzulNosotros {
+  background: #020C61;
+  font-size: 1rem;
+  padding: 2em; }
+
+.cuadroNaranjaNosotros {
+  text-align: center;
+  font-size: 1rem;
+  background: #FFB700; }
+
+.cuadroGrisOscuro {
+  background: #575757;
+  height: 337px; }

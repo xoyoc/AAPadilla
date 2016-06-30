@@ -336,3 +336,36 @@ h5{
 .contenidoServicios div:nth-child(2),.contenidoServicios div:last-child{
 	margin-top:10em;
 }
+// seccion de nosotros
+.contenidoNosotros{
+	padding:2em 1em;
+}
+.contenidoNosotros div:first-child h1{
+	margin-top:0;
+	text-transform:uppercase;
+}
+.contenidoNosotros div:first-child h2{
+	margin-bottom:0;
+	text-transform:uppercase;
+}
+.contenidoNosotros div:nth-child(2){
+	text-align:center;
+	margin-top:6em;
+	padding:3.5em;
+}
+.cuadroAzulNosotros{
+	background:$azul-color;
+	font-size:1rem;
+	//height:297.64px !important;
+	padding:2em;	
+}
+.cuadroNaranjaNosotros{
+	text-align:center;
+	font-size:1rem;
+	background:$naranja-color;
+	//height:299px !important;
+}
+.cuadroGrisOscuro{
+	background:$grisoscuro-color;
+	height:337px;
+}
