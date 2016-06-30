@@ -140,14 +140,30 @@ h5{
 	color:$azul-color;
 	font-size:1rem;
 }
+.tituloPrincipal{
+	text-transform:uppercase;
+	margin: 3em 0;
+}
+.tituloPrincipal h1{
+	margin-top:0;
+}
+.tituloPrincipal h2{
+	margin-bottom:0;
+}
 .naranja{
 	color:$naranja-color;
+}
+.fondoNaranja{
+	background:$naranja-color;
 }
 .azul{
 	color:$azul-color;
 }
 .grisClaro{
 	color:$grisclaro-color;
+}
+.fondoClaro{
+	background:$grisclaro-color;
 }
 .grisOscuro{
 	color:$grisoscuro-color;
@@ -355,17 +371,48 @@ h5{
 }
 .cuadroAzulNosotros{
 	background:$azul-color;
-	font-size:1rem;
-	//height:297.64px !important;
-	padding:2em;	
+	font-size:1.5rem;
+	padding:6em 6em;	
 }
 .cuadroNaranjaNosotros{
-	text-align:center;
-	font-size:1rem;
 	background:$naranja-color;
-	//height:299px !important;
+	font-size:1.5rem;
+	padding:6em 6em;
 }
 .cuadroGrisOscuro{
 	background:$grisoscuro-color;
-	height:337px;
+	height:337.33px;
+}
+.blanco{
+	color:white;
+}
+.cuadroAzulNosotrosAlcance{
+	background:$azul-color;
+	font-size:1.5rem;
+	padding:2em 4em;
+	height:337.33px;
+}
+// seccion de oficinas
+.cuadroAzulOficinas{
+	background:$azul-color;
+	padding: 3em;
+}
+.cuadroNaranjaOficinas{
+	background:$naranja-color;
+	padding: 1.8em;
+}
+//seccion de noticias
+.textoNoticias{
+	padding: 2em;
+	height:308px;
+}
+.fechaNoticias{
+	font-size:1rem;
+	border-bottom: black solid 1px;
+}
+.masNoticias{
+	text-transform:uppercase;
+	text-align:center;
+	padding: 1em 0;
+	font-size:1.5em;
 }

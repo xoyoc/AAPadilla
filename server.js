@@ -4,7 +4,7 @@ var app=express();
 app.use(express.static('public'));
 
 app.get('/', function(req,res){
-	res.sendFile(__dirname +'/nosotros.html');
+	res.sendFile(__dirname +'/contacto.html');
 });
 
 app.listen(3000, function(err){
