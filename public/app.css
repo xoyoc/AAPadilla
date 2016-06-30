@@ -402,3 +402,26 @@ h5 {
   text-align: center;
   padding: 1em 0;
   font-size: 1.5em; }
+
+.campoContacto {
+  background: #E8E8E8;
+  color: #575757;
+  margin: .5em 0; }
+
+.tituloContacto {
+  margin-bottom: 1em; }
+
+.ligasContacto {
+  text-align: center; }
+
+.ligasContacto p {
+  font-size: 1.5em;
+  width: 25%;
+  margin: auto; }
+
+.ligasContacto h3 {
+  text-transform: uppercase;
+  margin-top: 2em; }
+
+.ligasContacto button {
+  margin: 1em 0; }
