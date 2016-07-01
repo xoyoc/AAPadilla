@@ -108,6 +108,11 @@
   font-family: Gotham-Light;
   src: url(Gotham-light.ttf); }
 
+input {
+  color: black;
+  width: 100%;
+  margin: .25em 0; }
+
 a {
   color: white; }
 
@@ -151,6 +156,9 @@ h5 {
 .azul {
   color: #020C61; }
 
+.fondoAzul {
+  background: #020C61; }
+
 .grisClaro {
   color: #E8E8E8; }
 
@@ -159,6 +167,9 @@ h5 {
 
 .grisOscuro {
   color: #575757; }
+
+.fondoGrisOscuro {
+  background: #575757; }
 
 .active {
   color: #FFB700; }
@@ -208,7 +219,7 @@ h5 {
 .logotipo {
   width: 180px; }
 
-.botonNaranja {
+.botonNaranja, .botonNaranjaIngresar {
   font-size: 1em;
   background: #FFB700;
   color: white;
@@ -408,7 +419,7 @@ h5 {
   color: #575757;
   margin: .5em 0; }
 
-.tituloContacto {
+.tituloContacto, .tituloLigas {
   margin-bottom: 1em; }
 
 .ligasContacto {
@@ -425,3 +436,30 @@ h5 {
 
 .ligasContacto button {
   margin: 1em 0; }
+
+.botonNaranjaIngresar {
+  height: 9.3em; }
+
+.formularioReg {
+  margin: 1em 0 3em 0; }
+
+.registro {
+  margin-top: 2em; }
+
+.ingresar {
+  margin-top: 2em; }
+
+.formularioIng {
+  margin: 1em 0 7.7em 0; }
+
+.cuadroLigas {
+  height: 335px; }
+
+.tituloLigas {
+  margin-left: 4em; }
+
+.footerLigas {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em 0; }
