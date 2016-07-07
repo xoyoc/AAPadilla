@@ -1,0 +1,23 @@
+.cuadroAzulOficinas{
+	background:$azul-color;
+	padding: 3em;
+	height: 300px;
+}
+.cuadroNaranjaOficinas{
+	background:$naranja-color;
+	padding: 1.8em;
+	height: 300px;
+}
+.cuadroAzulOficinas h2, .cuadroNaranjaOficinas h2{
+	font-family: Gotham-Bold;
+	font-size: 2em;
+}
+.cuadroAzulOficinas address, .cuadroNaranjaOficinas address{
+	margin-bottom: 0;
+}
+.cuadroAzulOficinas p, .cuadroNaranjaOficinas p{
+	margin: 0;
+}
+.imagenesOficinas{
+	width: 100%;
+}

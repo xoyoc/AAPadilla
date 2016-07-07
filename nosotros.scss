@@ -1,0 +1,49 @@
+.contenidoNosotros{
+	padding:2em 1em;
+}
+.contenidoNosotros div:first-child h1{
+	margin-top:0;
+	text-transform:uppercase;
+}
+.contenidoNosotros div:first-child h2{
+	margin-bottom:0;
+	text-transform:uppercase;
+}
+.contenidoNosotros div:nth-child(2){
+	text-align:center;
+	margin-top:3em;
+	padding:1.34em;
+	font-family:Gotham-Bold;
+}
+.contenidoNosotros div>strong:nth-child(2){
+	font-size: 2em;
+}
+.contenidoNosotros div:last-child{
+	padding-top: 7em;
+}
+.cuadroAzulNosotros{
+	background:$azul-color;
+	font-size:1.5rem;
+	padding:6em 6em;	
+}
+.cuadroNaranjaNosotros{
+	background:$naranja-color;
+	font-size:1.5rem;
+	padding:6em 6em;
+}
+.cuadroGrisOscuro{
+	background:$grisoscuro-color;
+	height:339px;
+}
+.blanco{
+	color:white;
+}
+.cuadroAzulNosotrosAlcance{
+	background:$azul-color;
+	font-size:1.5rem;
+	padding:2em 4em;
+	height:339px;
+}
+.imgenesNosotros{
+	height: 339px;
+}

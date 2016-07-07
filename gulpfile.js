@@ -12,6 +12,17 @@ gulp.task('assest', function(){
 		.pipe(gulp.dest('public'));
 	})
 
+gulp.task('Web', function(){
+		gulp
+		.src('public/*')
+		.pipe(gulp.dest('www/html'));
+	})
+gulp.task('Web2', function(){
+		gulp
+		.src('*.html')
+		.pipe(gulp.dest('www/html'));
+	})
+
 gulp.task('styles', function(){
 		gulp
 		.src('index.scss')
@@ -47,4 +58,4 @@ gulp.task('build', function(){ return compile(); });
 
 gulp.task('watch', function(){ return compile(true); });
 
-gulp.task('default', ['styles','assest','build']);
+gulp.task('default', ['styles','assest','build','Web','Web2']);
