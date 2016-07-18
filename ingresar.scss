@@ -1,0 +1,31 @@
+//seccion de ingresar
+.botonNaranjaIngresar{
+	@extend .botonNaranja;
+	height: 9.3em;
+}
+.formularioReg{
+	margin: 1em 0 3em 0;
+}
+.registro{
+	margin-top:2em;
+}
+.ingresar{
+	margin-top:2em;
+}
+.formularioIng{
+	margin: 1em 0 7.7em 0;
+}
+//seccion de ligas de interes
+.cuadroLigas{
+	height:335px;
+}
+.tituloLigas{
+	@extend .tituloContacto;
+	margin-left:4em;
+}
+.footerLigas{
+	text-transform:uppercase;
+	text-align:center;
+	font-size: 1.5em;
+	padding: 1em 0;
+}

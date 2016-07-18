@@ -66,7 +66,7 @@
 	display:inline-block;
 }
 .logotipo{
-	width:180px;
+	width:185px;
 }
 .botonNaranja{
 	font-size:1em;
@@ -143,12 +143,22 @@
 	padding:0 1.5em;
 }
 .menu_principal{
-	font-size:12px;
+	font-size:15px;
 	margin-bottom: 0;
+}
+.botonIngresarHome{
+	@extend .botonIngresar;
+}
+.botonIngresarHome>button{
+	border:none;
+	font-size:1.2rem;
 }
 .lista{
 	font-family: sans-serif;
 	font-size: 1.1em;
+}
+.opcionesMenuSociales{
+	padding: .5em !important;
 }
 .lista a>button{
 	margin:2em 0 0 10em;

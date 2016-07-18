@@ -1,0 +1,143 @@
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+}
+
+body {
+  font-family: Gotham-Book;
+  color: white;
+}
+
+strong {
+  font-family: Gotham-Bold;
+  color: #FFB700;
+}
+
+.imgenesHome {
+  width: 100%;
+}
+
+.botonIngresarMenuPrincipal {
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+}
+
+.active {
+  color: #FFB700;
+}
+
+.esloganPrincipal {
+  z-index: 99;
+  position: absolute;
+  float: left;
+  left: 280px;
+  top: 200px;
+  width: 20%;
+}
+
+.esloganPrincipal p {
+  font-family: Gotham-Bold;
+  font-size: 1.8em;
+  line-height: 35px;
+  margin-bottom: .3em;
+}
+
+.esloganPrincipal a > button {
+  margin: auto 2em;
+}
+
+.cajaPrincipal {
+  width: 100vw;
+  position: absolute;
+  float: left;
+  left: 70px;
+  bottom: 70px;
+  display: inline-block;
+}
+
+.logotipo {
+  width: 180px;
+}
+
+.botonNaranja {
+  font-size: 1em;
+  background: #FFB700;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: .5em 1em;
+}
+
+.carousel-indicators {
+  left: 80% !important;
+  top: 10%;
+  width: 10%;
+  margin: 0;
+  height: 10%;
+}
+
+.imgenesHome {
+  height: 299px;
+}
+
+.cuadroNaranja {
+  background: #FFB700;
+  height: 299px !important;
+}
+
+.cuadroNaranja p {
+  aling-content: center;
+  font-size: 2em;
+  padding: 2em;
+}
+
+.sinpadding {
+  padding: 0;
+}
+
+.texto_icono,
+.iconEslogan {
+  color: #020C61;
+  text-align: center;
+}
+
+.iconEslogan {
+  font-size: 6em;
+  margin-bottom: 0;
+}
+
+.cuadroIconos {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.cuadroIconos > p {
+  padding: 1em 0;
+}
+
+.bordesalados {
+  border-left: #E8E8E8 solid 2px;
+  border-right: #E8E8E8 solid 2px;
+  padding: 0 1.5em;
+}
+
+.menu_principal {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.menu_social {
+  text-align: center;
+}
+
+.menu_social ul li a {
+  padding: .2em .2em;
+}

@@ -49,6 +49,9 @@ h5{
 	color:$azul-color;
 	font-size:1rem;
 }
+.menu_movil{
+	display: none;
+}
 .imgenesHome,.imgenesHome2,.imgenesNosotros,.imgenesServicio {
 	width: 100%;
 }
@@ -87,65 +90,67 @@ h5{
 //seccion de noticias
 @import "noticias.scss";
 //seccion de contacto
-.imgenesContacto{
-	width: 100%;
-}
-.botonAzulLiga{
-	@extend .botonAzul;
-	line-height: normal;
-	padding:1.2em 3em .6em 3em;
-}
-.campoContacto{
-	background:$grisclaro-color;
-	color:$grisoscuro-color;
-	margin: .5em 0;
-}
-.tituloContacto{
-	margin-bottom:1em;
-}
-.ligasContacto{
-	text-align:center;
-}
-.ligasContacto p{
-	font-size:1.5em;
-	width:25%;
-	margin:auto;
-}
-.ligasContacto h3{
-	text-transform:uppercase;
-	margin-top:2em;
-}
-.ligasContacto button{
-	margin: 1em 0;
-}
+@import "contacto.scss";
 //seccion de ingresar
-.botonNaranjaIngresar{
-	@extend .botonNaranja;
-	height: 9.3em;
+@import "ingresar.scss";
+
+@media screen and (max-width:1024px){
+	.cajaPrincipal{left: 0;bottom:190px;}
+	.menu_principal{width: 71% !important;}
+	.esloganPrincipal{left: 210px;top:150px;}
+	.esloganPrincipal p{font-size: 1.5em;}
+	.cuadroNaranja p{font-size: 1.8em;}
+	.botonIngresarHome{margin-left: 81%;}
 }
-.formularioReg{
-	margin: 1em 0 3em 0;
-}
-.registro{
-	margin-top:2em;
-}
-.ingresar{
-	margin-top:2em;
-}
-.formularioIng{
-	margin: 1em 0 7.7em 0;
-}
-//seccion de ligas de interes
-.cuadroLigas{
-	height:335px;
-}
-.tituloLigas{
-	@extend .tituloContacto;
-	margin-left:4em;
-}
-.footerLigas{
-	text-transform:uppercase;
-	text-align:center;
-	font-size: 1.5em;
-	padding: 1em 0;
+@media screen and (max-width:768px){
+	body{background:green;}
+	.esloganPrincipal{display: none;}
+	.menu_movil{
+		background: $grisoscuro-color;
+		display: block;
+		font-size: 2rem;
+		position: fixed;
+		float:left;
+		z-index: 999;
+		left: 2em;
+		top:1em;
+		border-radius: 50%;
+		padding: .4em .5em 0 .5em;
+		align-content: center;
+	}
+	.cajaPrincipal{
+		width:60%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+		background: $azul-color;
+		padding: 1em 2em;
+		bottom: 0;
+		z-index: 1999;
+	}
+	.cajaPrincipal>img{
+		vertical-align: initial;
+	}
+	.cuadroNaranja{
+		height: 200px;
+	}
+	.cuadroAzul>h4{
+		margin: 0 0 0 2em;
+		padding: 1em;
+	}
+	.bordesalados{
+		border-left: none;
+		border-right: none;
+	}
+	.nav-pills>li{
+		float: initial;
+	}
+	.lista{
+		overflow: hidden;
+	}
+	.logo{
+		width: 300px;
+		margin: 2em 10%;
+	}
 }
