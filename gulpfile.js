@@ -22,7 +22,6 @@ gulp.task('styles', function(){
 
 function compile(watch) {
 	var bundle=browserify('./src/index.js');
-	
 	if (watch){
 		bundle = watchify(bundle);
 		bundle.on('update',function(){

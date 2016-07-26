@@ -104,7 +104,9 @@ h5{
 }
 @media screen and (max-width:768px){
 	body{background:green;}
-	.esloganPrincipal{display: none;}
+	.esloganPrincipal, .carousel-indicators, .row>.sinpadding>.imgenesHome{display: none;}
+	.bt-menu{color: $grisclaro-color;}
+	.item > img{width:100vw;height:65vh;}
 	.menu_movil{
 		background: $grisoscuro-color;
 		display: block;
@@ -153,4 +155,5 @@ h5{
 		width: 300px;
 		margin: 2em 10%;
 	}
+	.footerSocial{font-size:2em;}
 }

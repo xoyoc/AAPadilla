@@ -6036,8 +6036,13 @@ h5 {
 @media screen and (max-width: 768px) {
   body {
     background: green; }
-  .esloganPrincipal {
+  .esloganPrincipal, .carousel-indicators, .row > .sinpadding > .imgenesHome {
     display: none; }
+  .bt-menu {
+    color: #E8E8E8; }
+  .item > img {
+    width: 100vw;
+    height: 65vh; }
   .menu_movil {
     background: #575757;
     display: block;
@@ -6076,4 +6081,6 @@ h5 {
     overflow: hidden; }
   .logo {
     width: 300px;
-    margin: 2em 10%; } }
+    margin: 2em 10%; }
+  .footerSocial {
+    font-size: 2em; } }
