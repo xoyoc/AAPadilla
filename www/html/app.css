@@ -5968,13 +5968,14 @@ h5 {
     margin-left: 81%; } }
 
 @media screen and (max-width: 768px) {
-  .esloganPrincipal, .carousel-indicators, .row > .sinpadding > .imgenesHome, .bordesaladosOscuro {
+  .esloganPrincipal, .carousel-indicators, .row > .sinpadding > .imgenesHome {
     display: none; }
   .menu_principal {
-    width: 100% !important; }
+    width: 100% !important;
+    padding-left: 0; }
   .bt-menu {
     color: #E8E8E8; }
-  .item > img {
+  .imgenes_home, .item > img {
     width: 100vw !important;
     height: 50vh !important; }
   .menu_movil {
@@ -5994,7 +5995,7 @@ h5 {
     display: none !important; }
   .botonIngresarHome {
     margin: 2em; }
-  .cajaPrincipal {
+  .cajaPrincipal, .cajaPrincipalServicios {
     width: 75%;
     height: 100%;
     left: -100%;
@@ -6004,6 +6005,8 @@ h5 {
     padding: 1em 2em;
     bottom: 0;
     z-index: 1999; }
+  .cajaPrincipalServicios {
+    top: 0; }
   .lista {
     width: 95%; }
   .lista a > button {
@@ -6019,9 +6022,15 @@ h5 {
   .cuadroAzul > h4 {
     margin: 0 0 0 2em;
     padding: 1em; }
-  .bordesalados {
+  .cuadroAzulServicios {
+    font-size: 1.3em; }
+  .cuadroGrisOscuro, .cuadroAzulNosotros, .cuadroNaranjaNosotros, .cuadroGrisOscuro {
+    padding: 2em; }
+  .bordesalados, .bordesaladosOscuro {
     border-left: none;
     border-right: none; }
+  .cuadroGrisOscuro > h2 {
+    margin-top: 0; }
   .nav-pills > li {
     float: initial; }
   .lista {
@@ -6037,4 +6046,12 @@ h5 {
     display: inline-flex; }
   .cuadroCopyright p {
     margin: 1em 3em;
-    text-align: center; } }
+    text-align: center; }
+  .contenidoServicios div:nth-child(2), .contenidoServicios div:last-child {
+    margin-top: 0; }
+  .row > .imagenesNosotros:nth-child(2) {
+    display: none; }
+  .cuadroAzulNosotrosAlcance {
+    padding: 1em; }
+  .imgenesOficinas {
+    width: 100vw; } }

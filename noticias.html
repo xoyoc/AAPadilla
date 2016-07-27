@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="es-mx">
 <head>
-    <meta charset="UTF-8">
-    <title>Noticias - Agencia Aduanal Padilla</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <!-- Llamado de booststrap mini  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="app.css">
+  <meta charset="UTF-8">
+  <title>Noticias - Agencia Aduanal Padilla</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Llamado hoja de estilos -->
+  <link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
     <div class="container-fluid">
+      <div class="menu_movil">
+        <a href="#" class="bt-menu"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+      </div>
         <div class="row">
             <img class="imgenes_home" src="slider_noticias_agencia_padilla.jpg" alt="Fondo de menu">
-            <div class="row cajaPrincipalServicios">
+            <div id="menuP" class="row cajaPrincipalServicios">
               <a href="index.html"><img class="col-md-2 col-md-offset-1 logotipo" src="Logotipo_Padilla.png" alt="Logotipo Agencia Aduanal Padilla"></a>
                 <nav class="col-md-7 menu_principal navbar">
                   <a class="botonIngresar" href="ingresar.html"><button>Ingresar</button></a>
@@ -123,8 +125,26 @@
     <div class="cuadroCopyright row">
       <p>Copyright © 2016 - Agencia Aduanal Padilla - <strong>Aviso de Privacidad</strong></p>
     </div>
-  </div>
-    <!-- Llamado de scriptjava del boostrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+  <!-- Llamado de booststrap mini  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript">
+      $('.carousel').carousel('cycle');
+  </script>
+  <script type="text/javascript">
+      var contador = 1;
+      $(document).ready(main);
+      function main(){
+        $('.menu_movil').click(function(){
+          if(contador == 1){
+            $('#menuP').animate({left: '0'});
+            contador = 0;
+          } else {
+            contador = 1;
+            $('#menuP').animate({left: '-100%'});
+          }
+        });
+      };  
+  </script>
+  <!-- Llamado de scriptjava del boostrap -->
+  <script src="bootstrap.min.js"></script> 
 </body>
 </html>
