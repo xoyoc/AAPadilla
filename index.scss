@@ -103,57 +103,39 @@ h5{
 	.botonIngresarHome{margin-left: 81%;}
 }
 @media screen and (max-width:768px){
-	body{background:green;}
-	.esloganPrincipal, .carousel-indicators, .row>.sinpadding>.imgenesHome{display: none;}
+	.esloganPrincipal, .carousel-indicators, .row>.sinpadding>.imgenesHome,.bordesaladosOscuro{display: none;}
+	.menu_principal{width: 100% !important;padding-left:0;}
 	.bt-menu{color: $grisclaro-color;}
-	.item > img{width:100vw;height:65vh;}
+	.item > img{width:100vw !important;height:50vh !important;}
 	.menu_movil{
 		background: $grisoscuro-color;
-		display: block;
-		font-size: 2rem;
-		position: fixed;
-		float:left;
-		z-index: 999;
-		left: 2em;
-		top:1em;
-		border-radius: 50%;
+		display: block;font-size: 2rem;
+		position: fixed;float:left;
+		z-index: 999;left: 2em;
+		top:1em;border-radius: 50%;
 		padding: .4em .5em 0 .5em;
-		align-content: center;
-	}
+		align-content: center;}
+	.opcionesMenuSociales{display:none !important;}
+	.botonIngresarHome{margin:2em;}
 	.cajaPrincipal{
-		width:60%;
-		height:100%;
-		left:-100%;
-		margin:0;
-		position: fixed;
+		width:75%;
+		height:100%;left:-100%;
+		margin:0;position: fixed;
 		background: $azul-color;
 		padding: 1em 2em;
-		bottom: 0;
-		z-index: 1999;
-	}
-	.cajaPrincipal>img{
-		vertical-align: initial;
-	}
-	.cuadroNaranja{
-		height: 200px;
-	}
-	.cuadroAzul>h4{
-		margin: 0 0 0 2em;
-		padding: 1em;
-	}
-	.bordesalados{
-		border-left: none;
-		border-right: none;
-	}
-	.nav-pills>li{
-		float: initial;
-	}
-	.lista{
-		overflow: hidden;
-	}
-	.logo{
-		width: 300px;
-		margin: 2em 10%;
-	}
+		bottom: 0;z-index: 1999;}
+	.lista{width:95%;}
+	.lista a > button{margin:2em 0 0 4em;}
+	.cajaPrincipal>img{vertical-align: initial;}
+	.cuadroNaranja{height: 200px;}
+	.cuadroNaranja>p{font-size:1.5em;}
+	.cuadroAzul{font-size:12px;}
+	.cuadroAzul>h4{margin: 0 0 0 2em;padding: 1em;}
+	.bordesalados{border-left: none;border-right: none;}
+	.nav-pills>li{float: initial;}
+	.lista{overflow: hidden;}
+	.logo{width: 300px;margin: 2em 10%;}
 	.footerSocial{font-size:2em;}
+	.footerSocial>.nav-justified > li{display:inline-flex;}
+	.cuadroCopyright p{margin:1em 3em;text-align:center;}
 }

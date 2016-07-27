@@ -1,5 +1,6 @@
 var gulp=require('gulp');
 var sass=require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
 var rename=require('gulp-rename');
 var babel=require('babelify');
 var browserify=require('browserify');
@@ -16,6 +17,7 @@ gulp.task('styles', function(){
 		gulp
 		.src('index.scss')
 		.pipe(sass())
+		.pipe(autoprefixer())
 		.pipe(rename('app.css'))
 		.pipe(gulp.dest('public'));
 	})
