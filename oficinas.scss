@@ -5,8 +5,11 @@
 }
 .cuadroNaranjaOficinas{
 	background:$naranja-color;
-	padding: 1.8em;
+	padding: 1em;
 	height: 300px;
+}
+.cuadroNaranjaOficinas>h2{
+	margin-top:5px;
 }
 .cuadroAzulOficinas h2, .cuadroNaranjaOficinas h2{
 	font-family: Gotham-Bold;
@@ -20,4 +23,7 @@
 }
 .imagenesOficinas{
 	width: 100%;
+}
+.oficinas-otras,.oficinas-otras-items{
+	font-size: .8em;
 }

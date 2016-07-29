@@ -1,11 +1,12 @@
-var gulp=require('gulp');
-var sass=require('gulp-sass');
+var gulp = require('gulp');
+var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
-var rename=require('gulp-rename');
-var babel=require('babelify');
-var browserify=require('browserify');
-var source=require('vinyl-source-stream');
-var watchify=require('watchify');
+var rename = require('gulp-rename');
+var babel = require('babelify');
+var browserify = require('browserify');
+var source = require('vinyl-source-stream');
+var watchify = require('watchify');
+var cleanCSS = require('gulp-clean-css');
 
 gulp.task('assest', function(){
 		gulp
@@ -19,6 +20,7 @@ gulp.task('styles', function(){
 		.pipe(sass())
 		.pipe(autoprefixer())
 		.pipe(rename('app.css'))
+		.pipe(cleanCSS())
 		.pipe(gulp.dest('public'));
 	})
 
