@@ -32,11 +32,11 @@ a:hover{
 	background: none !important;
 }
 body{
-	font-family:Gotham-Book;
+	font-family:Gotham-Book, sans-serif;
 	color:white;
 }
 strong{
-	font-family:Gotham-Bold;
+	font-family:Gotham-Bold, sans-serif;
 	color:$naranja-color;
 }
 h4{
@@ -44,7 +44,7 @@ h4{
 	margin: 3em 0 1em 2em;	
 }
 h5{
-	font-family:Gotham-Bold;
+	font-family:Gotham-Bold, sans-serif;
 	text-transform:uppercase;
 	color:$azul-color;
 	font-size:1rem;
@@ -103,6 +103,7 @@ h5{
 	.botonIngresarHome{margin-left: 81%;}
 }
 @media screen and (max-width:768px){
+	body{font-family: sans-serif;}
 	.esloganPrincipal, .carousel-indicators, .row>.sinpadding>.imgenesHome{display: none;}
 	.menu_principal{width: 100% !important;padding-left:0;}
 	.bt-menu{color: $grisclaro-color;}

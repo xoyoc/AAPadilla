@@ -1,0 +1,24 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 10 days"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType text/plain "access plus 1 week"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/x-icon "access plus 3 months"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 week"
+ExpiresByType text/javascript "access plus 1 week"
+ExpiresByType application/x-icon "access plus 3 months"
+</IfModule>
+
+# 1 MES
+<FilesMatch "\.(woff2|ico|eot|svg|jpg|woff|png|gif|js|xml|txt|css)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+
+# 1 SEMANA
+<FilesMatch "\.(html|htm|php)$">
+Header set Cache-Control "max-age=604800, public, must-revalidate"
+</FilesMatch>
